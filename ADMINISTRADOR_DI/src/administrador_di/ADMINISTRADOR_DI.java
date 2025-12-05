@@ -251,6 +251,7 @@ public class ADMINISTRADOR_DI {
                 Precios [opcion-1] = 0;
                 System.out.println ("Producto eliminado!!");
                 System.out.println("---------------------------------------------");
+                totalProductos -= 1;
             }
             for(int i = 0; i < Productos.length - 1; i++){
                 if(Productos[i].equals("vacio") && !Productos[i+1].equals("vacio")){
@@ -356,4 +357,5 @@ public class ADMINISTRADOR_DI {
         }while(opcion != -1);
 
     }
+
 }
